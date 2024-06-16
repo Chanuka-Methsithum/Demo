@@ -1,0 +1,58 @@
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.mainParagraph{
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wordIMG{
+    height: 350px;
+}
+
+.listItems{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.mainBoxDiv{
+    height: 500px;
+    width: 350px;
+
+    position: relative;
+    border-radius: 10px;
+    background-color: bisque;
+
+    top: 50px;
+    left: 100px;
+}
+
+.upperDiv{
+    height: 200px;
+    width: 350px;
+    
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navBar{
+    height: 5px;
+    top: 0px;
+    background-color: dodgerblue;
+    position: sticky;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.wordIMG:hover{
+    transition-duration: .2s;
+    height: 370px;
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
